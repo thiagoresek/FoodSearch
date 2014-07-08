@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lifesum.thiago.foodsearch.view.FoodDetailsActivity" >
+
+    <TextView
+        android:id="@+id/textViewDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/name_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDetailsTitleValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewDetailsTitle"
+        android:layout_alignTop="@id/textViewDetailsTitle"
+        android:layout_toRightOf="@id/textViewDetailsTitle"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewDetailsBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDetailsTitle"
+        android:layout_below="@+id/textViewDetailsTitle"
+        android:text="@string/brand_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDetailsBrandValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewDetailsBrand"
+        android:layout_alignTop="@id/textViewDetailsBrand"
+        android:layout_toRightOf="@id/textViewDetailsBrand"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewDetailsCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDetailsBrand"
+        android:layout_below="@+id/textViewDetailsBrand"
+        android:text="@string/calories_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDetailsCaloriesValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewDetailsCalories"
+        android:layout_alignTop="@id/textViewDetailsCalories"
+        android:layout_toRightOf="@id/textViewDetailsCalories"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewDetailsFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDetailsCalories"
+        android:layout_below="@+id/textViewDetailsCalories"
+        android:text="@string/fat_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDetailsFatValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewDetailsFat"
+        android:layout_alignTop="@id/textViewDetailsFat"
+        android:layout_toRightOf="@id/textViewDetailsFat"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewDetailsProtein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDetailsFat"
+        android:layout_below="@+id/textViewDetailsFat"
+        android:text="@string/protein_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDetailsProteinValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewDetailsProtein"
+        android:layout_alignTop="@id/textViewDetailsProtein"
+        android:layout_toRightOf="@id/textViewDetailsProtein"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

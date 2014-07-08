@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food Search</string>
+    <string name="title_section_search">Search Foods</string>
+    <string name="title_section_saved">Saved Foods</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_for_food">Search for food</string>
+    <string name="saved_foods">Saved Foods</string>
+    <string name="search">Search</string>
+    <string name="no_food_saved">No food saved yet</string>
+    <string name="food_saved_into_local_database">Food saved into local database</string>
+    <string name="error_while_saving_food">Error while saving food</string>
+    <string name="protein_details">"Protein: "</string>
+    <string name="fat_details">"Fat: "</string>
+    <string name="calories_details">"Calories: "</string>
+    <string name="brand_details">"Brand: "</string>
+    <string name="name_details">Name:</string>
+    <string name="more_information_about_this_food">More Information about this food</string>
+    <string name="search_button">Search button</string>
+    <string name="save_this_food_for_offline_usage">Save this food for offline usage</string>
+
+</resources>
